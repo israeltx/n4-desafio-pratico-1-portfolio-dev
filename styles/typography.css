@@ -1,0 +1,48 @@
+:root {
+    /* TYPOGRAPHY */
+  /* Title Fonts (Asap) */
+  --title-font: "Asap", sans-serif;
+  --title-lg: 700 56px/120% var(--title-font);
+  --title-md: 700 24px/120% var(--title-font);
+  --title-sm: 700 16px/120% var(--title-font);
+  /* Subtitle Font (Inconsolata) */
+  --subtitle-font: "Inconsolata", monospace;
+  --subtitle: 400 20px/120% var(--subtitle-font);
+  /* Body Text Font (Maven Pro) */
+  --body-font: "Maven Pro", sans-serif;
+  --text-md: 500 16px/140% var(--body-font);
+  --text-sm: 400 14px/140% var(--body-font);
+}
+
+.title-lg {
+  font: var(--title-lg);
+  color: var(--gray-600);
+  text-align: center;
+}
+.title-md {
+  font: var(--title-md);
+  color: var(--gray-600);
+  text-align: center;
+}
+.title-sm {
+  font: var(--title-sm);
+  color: var(--gray-500);
+}
+.subtitle { 
+  font: var(--subtitle);
+  color: var(--gray-500);
+  text-align: center;
+}
+.text-md {
+  font: var(--text-md);
+  color: var(--gray-500);
+  text-align: center;
+}
+.text-sm {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+.social-link {
+  font: var(--text-md);
+  color: var(--gray-500);
+}

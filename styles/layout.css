@@ -27,37 +27,11 @@ ph-caret-double-down { text-align: center; }
   gap: 10px;
 }
 
+/* My work section */
+
 #work {
   /* max-height: 917px; */
 }
-#services { 
-  height: 480px;
-  padding: 88px 120px 120px 120px;
-}
-
-.service-cards {
-  margin-top: 56px; 
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-}
-.service-card {
-  padding: 20px;
-  width: 280px;
-  height: 155px;
-  border: 2px solid var(--gray-200);
-  border-radius: 12px;
-
-  & i {
-    display: inline-block;
-    margin-bottom: 20px;
-  }
-
-  & h3 { margin-bottom: 8px; }
-
-}
-
-#contact {}
 
 .cards {
   margin-top: 56px;
@@ -86,3 +60,59 @@ ph-caret-double-down { text-align: center; }
 .card:hover {
   border: 1.5px solid var(--gray-400);
 }
+
+/* My services section */
+
+#services { 
+  height: 480px;
+  padding: 88px 120px 120px 120px;
+}
+
+.service-cards {
+  margin-top: 56px; 
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.service-card {
+  padding: 20px;
+  width: 280px;
+  height: 155px;
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
+
+  & i {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  & h3 { margin-bottom: 8px; }
+
+}
+
+/* My contact section */
+
+#contact { padding: 128px 120px 200px 120px; }
+
+.social-buttons { 
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+.social-button {
+  width: 400px;
+  height: 68px;
+  padding: 20px;
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-button:hover {
+  border: 1.5px solid var(--blue);
+}
+
+.social-description { display: flex; }

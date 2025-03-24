@@ -22,20 +22,26 @@
 .ph-linkedin-logo {
   font-size: 23px;
   color: var(--gray-400);
+  margin-right: 12px;
 }
 .ph-instagram-logo {
   font-size: 23px;
   color: var(--gray-400);
+  margin-right: 12px;
 }
 .ph-github-logo {
   font-size: 24px;
   color: var(--gray-400);
+  margin-right: 12px;
 }
 .ph-envelope-simple {
   font-size: 23px;
   color: var(--gray-400);
+  margin-right: 12px;
 }
 .ph-arrow-up-right {
-  font-size: 11px;
+  font-size: 20px;
   color: var(--gray-400);
+  margin-left: 12px;
+  color: var(--blue);
 }

@@ -1,0 +1,41 @@
+/* Intro Icons */
+.ph-caret-double-down {
+  font-size: 23px;
+  color: var(--gray-400);
+}
+
+/* Services Icons */
+.ph-devices {
+  font-size: 44px;
+  color: var(--purple);
+}
+.ph-hard-drives {
+  font-size: 36px;
+  color: var(--yellow);
+}
+.ph-infinity {
+  font-size: 45px;
+  color: var(--green);
+}
+
+/* Contacts Icons */
+.ph-linkedin-logo {
+  font-size: 23px;
+  color: var(--gray-400);
+}
+.ph-instagram-logo {
+  font-size: 23px;
+  color: var(--gray-400);
+}
+.ph-github-logo {
+  font-size: 24px;
+  color: var(--gray-400);
+}
+.ph-envelope-simple {
+  font-size: 23px;
+  color: var(--gray-400);
+}
+.ph-arrow-up-right {
+  font-size: 11px;
+  color: var(--gray-400);
+}

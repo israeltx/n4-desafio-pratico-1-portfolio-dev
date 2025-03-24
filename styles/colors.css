@@ -21,3 +21,5 @@ html {
 
 .red-highlight { color: var(--red); }
 .purple-highlight { color: var(--purple);}
+
+#services { background-color: var(--gray-100); }

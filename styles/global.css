@@ -26,5 +26,22 @@
   /* Body Text Font (Maven Pro) */
   --body-font: "Maven Pro", sans-serif;
   --text-md: 400 16px/140% var(--body-font);
-  --text-md: 400 14px/140% var(--body-font);
+  --text-sm: 400 14px/140% var(--body-font);
 }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto; 
+}
+
+.avatar { width: 112px; }
+
+.subtitle { font: var(--subtitle); }
+.name-highlight { color: var(--red); }
+.text-sm { font: var(--text-sm)};

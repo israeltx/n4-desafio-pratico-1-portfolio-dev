@@ -2,6 +2,7 @@
 .ph-caret-double-down {
   font-size: 23px;
   color: var(--gray-400);
+  text-align: center;
 }
 
 /* Services Icons */

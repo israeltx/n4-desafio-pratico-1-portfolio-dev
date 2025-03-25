@@ -6,6 +6,7 @@
 
 .avatar { width: 112px; }
 
+/* My Intro Section */
 #intro {
   /* background-image: url(/assets/images/Background_Intro.png); */
   height: 750px;
@@ -28,14 +29,10 @@ ph-caret-double-down { text-align: center; }
 }
 
 /* My work section */
-
-#work {
-  /* max-height: 917px; */
-}
+#work { padding: 72px 120px 144px 120px; }
 
 .cards {
   margin-top: 56px;
-  margin-bottom: 144px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -57,9 +54,7 @@ ph-caret-double-down { text-align: center; }
   & h3 { margin-bottom: 8px; }
 }
 
-.card:hover {
-  border: 1.5px solid var(--gray-400);
-}
+.card:hover { border: 1.5px solid var(--gray-400); }
 
 /* My services section */
 
@@ -87,12 +82,12 @@ ph-caret-double-down { text-align: center; }
   }
 
   & h3 { margin-bottom: 8px; }
-
 }
 
 /* My contact section */
-
-#contact { padding: 128px 120px 200px 120px; }
+#contact { 
+  padding: 128px 120px 200px 120px;
+}
 
 .social-buttons { 
   display: flex;

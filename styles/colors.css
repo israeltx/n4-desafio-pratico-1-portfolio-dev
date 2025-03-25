@@ -15,9 +15,7 @@
   --gray-600: #E2E4E9;
 }
 
-html {
-  background-color: var(--gray-200);
-}
+html { background-color: var(--gray-200); }
 
 .red-highlight { color: var(--red); }
 .purple-highlight { color: var(--purple);}

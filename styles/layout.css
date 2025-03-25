@@ -1,7 +1,12 @@
+header {
+  background-size: 100%;
+  background-image: url(/assets/images/Background_Intro.png);
+  object-fit: cover;
+}
+
 .container {
   width: 1366px;
   margin: 0 auto;
-  /* border: 1px solid yellow;  */
 }
 
 #profile {
@@ -13,7 +18,6 @@
     left: 580px;
     bottom: 0;
   }
-
 }
 
 /* My Intro Section */
@@ -21,23 +25,14 @@
   height: 750px;
   padding: 140px 120px 0 120px;
   text-align: center;
-  /* background-color: blue; */
-  /* border: 1px solid white; */
 }
 
 .techs {
   display: flex;
   margin-top: 80px;
   margin-bottom: 94px;
-  /* max-width: 754px; */
-  /* border: 1px solid yellow; */
   justify-content: center;
   gap: 16px;
-
-  & img {
-    fill: yellow
-  }
-
 }
 .tech {
   display: flex;
@@ -81,7 +76,6 @@
 .card:hover { border: 1.5px solid var(--gray-400); }
 
 /* My services section */
-
 #services { 
   height: 480px;
   padding: 88px 120px 120px 120px;
@@ -110,7 +104,12 @@
 }
 
 /* My contact section */
-#contact { padding: 128px 120px 200px 120px; }
+#contact { 
+  padding: 128px 120px 200px 120px;
+  background-image: url(/assets/images/Background_Contacts.png);
+  object-fit: cover;
+  background-size: 100%;
+}
 
 .social-buttons { 
   display: flex;
@@ -131,8 +130,5 @@
   justify-content: space-between;
 }
 
-.social-button:hover {
-  border: 1.5px solid var(--blue);
-}
-
+.social-button:hover { border: 1.5px solid var(--blue);}
 .social-description { display: flex; }

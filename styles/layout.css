@@ -1,6 +1,6 @@
 header {
   background-size: 100%;
-  background-image: url(/assets/images/Background_Intro.png);
+  background-image: url(assets/images/Background_Intro.png);
   object-fit: cover;
 }
 
@@ -106,7 +106,7 @@ header {
 /* My contact section */
 #contact { 
   padding: 128px 120px 200px 120px;
-  background-image: url(/assets/images/Background_Contacts.png);
+  background-image: url(assets/images/Background_Contacts.png);
   object-fit: cover;
   background-size: 100%;
 }
